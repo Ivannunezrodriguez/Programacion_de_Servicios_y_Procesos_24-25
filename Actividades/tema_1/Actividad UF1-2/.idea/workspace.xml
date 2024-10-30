@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0408d2e9-8dc0-49ac-9916-627e236d9862" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../Actividad 1/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad 1/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad UF1-1/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad UF1-1/.idea/checkstyle-idea.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad UF1-1/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad UF1-1/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad UF1-1/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad UF1-1/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad UF1-1/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad UF1-1/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad UF1-1/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad UF1-1/ActividadUF1-1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Actividad UF1-2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Actividad UF1-2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ActividadUF1-2/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ActividadUF1-2/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ActividadUF1-2/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ActividadUF1-2/.idea/material_theme_project_new.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ActividadUF1-2/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ActividadUF1-2/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ActividadUF1-2/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ActividadUF1-2/ActividadUF1-2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ActividadUF1-2/src/BufferExamenes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ActividadUF1-2/src/Examinado.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ActividadUF1-2/src/Principal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ActividadUF1-2/src/ProductorExamenes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad UF1-3/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad UF1-3/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad UF1-3/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad UF1-3/Actividad UF1-3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad UF1-3/Actividad UF1-3.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad UF1-3/ActividadUF1-3/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad UF1-3/ActividadUF1-3/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad UF1-3/ActividadUF1-3/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad UF1-3/ActividadUF1-3/.idea/material_theme_project_new.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad UF1-3/ActividadUF1-3/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad UF1-3/ActividadUF1-3/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad UF1-3/ActividadUF1-3/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad UF1-3/ActividadUF1-3/ActividadUF1-3.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad UF1-3/ActividadUF1-3/src/BufferExamenes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad UF1-3/ActividadUF1-3/src/Examinado.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad UF1-3/ActividadUF1-3/src/Lanzador.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad UF1-3/ActividadUF1-3/src/Principal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad UF1-3/ActividadUF1-3/src/ProductorExamenes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad UF1-3/ActividadUF1-3/src/salida/examen1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad UF1-3/ActividadUF1-3/src/salida/examen2.txt" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Ivannunezrodriguez"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Ivannunezrodriguez/Programacion_de_Servicios_y_Procesos_24-25.git",
+    "accountId": "46cfbf7d-a95b-41dd-90d2-ecc587252d1d"
+  }
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 2
+}]]></component>
+  <component name="ProjectId" id="2o9xLniDtRhKxnhFjEvSlrzV4GJ" />
+  <component name="ProjectViewState">
+    <option name="abbreviatePackageNames" value="true" />
+    <option name="flattenModules" value="true" />
+    <option name="flattenPackages" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/drive ivan/Curso DAM daw/UNIR/2º curso/Programacion de servicios y procesos/Respositorio",
+    "settings.editor.selected.configurable": "configurable.group.appearance"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0408d2e9-8dc0-49ac-9916-627e236d9862" name="Changes" comment="" />
+      <created>1730295538530</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1730295538530</updated>
+    </task>
+    <servers />
+  </component>
+</project>
