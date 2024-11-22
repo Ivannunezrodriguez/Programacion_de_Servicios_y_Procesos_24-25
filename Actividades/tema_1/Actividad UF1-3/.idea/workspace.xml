@@ -1,52 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="f621c906-1a6d-4f91-b3a1-d683e98b4d14" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../Actividad 1/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Actividad 1/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Actividad 1/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad 1/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Actividad 1/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Actividad 1/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad 1/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Actividad UF1-1/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Actividad UF1-1/.idea/checkstyle-idea.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Actividad UF1-1/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Actividad UF1-1/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad UF1-1/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Actividad UF1-1/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad UF1-1/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Actividad UF1-1/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad UF1-1/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Actividad UF1-1/ActividadUF1-1.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Actividad UF1-2/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Actividad UF1-2/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad UF1-2/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Actividad UF1-2/Actividad UF1-2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad UF1-2/Actividad UF1-2.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Actividad UF1-2/ActividadUF1-2/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Actividad UF1-2/ActividadUF1-2/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Actividad UF1-2/ActividadUF1-2/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Actividad UF1-2/ActividadUF1-2/.idea/material_theme_project_new.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Actividad UF1-2/ActividadUF1-2/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Actividad UF1-2/ActividadUF1-2/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Actividad UF1-2/ActividadUF1-2/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Actividad UF1-2/ActividadUF1-2/ActividadUF1-2.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Actividad UF1-2/ActividadUF1-2/src/BufferExamenes.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Actividad UF1-2/ActividadUF1-2/src/Examinado.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Actividad UF1-2/ActividadUF1-2/src/Principal.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Actividad UF1-2/ActividadUF1-2/src/ProductorExamenes.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Actividad UF1-3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Actividad UF1-3.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ActividadUF1-3/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ActividadUF1-3/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ActividadUF1-3/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ActividadUF1-3/.idea/material_theme_project_new.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ActividadUF1-3/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ActividadUF1-3/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ActividadUF1-3/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ActividadUF1-3/ActividadUF1-3.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ActividadUF1-3/src/BufferExamenes.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ActividadUF1-3/src/Examinado.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ActividadUF1-3/src/Lanzador.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ActividadUF1-3/src/Principal.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ActividadUF1-3/src/ProductorExamenes.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ActividadUF1-3/src/salida/examen1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ActividadUF1-3/src/salida/examen2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,19 +42,34 @@
     <option name="showMembers" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/drive ivan/Curso DAM daw/UNIR/2º curso/Programacion de servicios y procesos/Respositorio",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "configurable.group.appearance"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/drive ivan/Curso DAM daw/UNIR/2º curso/Programacion de servicios y procesos/Respositorio&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.appearance&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fdfe4dae3a2d-intellij.indexing.shared.core-IU-243.21565.193" />
+        <option value="bundled-js-predefined-d6986cc7102b-e768b9ed790e-JavaScript-IU-243.21565.193" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -103,7 +78,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1730295550144</updated>
+      <workItem from="1732277504520" duration="499000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
 </project>
