@@ -5,23 +5,24 @@ public class BufferExamenes {
     private Queue<String> colaExamenes;
 
     public BufferExamenes() {
-        colaExamenes = new LinkedList<String>();
+        colaExamenes = new LinkedList<>();
     }
 
     public synchronized void fabricarNuevoExamen(String codigo) {
-        // Añadir el código a la cola y notificar a los consumidores
         colaExamenes.add(codigo);
-        notify(); // Despertar hilos que estén esperando un examen
+        System.out.println("Producido examen " + codigo);
+        notify(); // Despierta un hilo en espera
     }
 
     public synchronized String consumirExamen() {
         while (colaExamenes.isEmpty()) {
             try {
-                wait(); // Esperar hasta que haya un examen disponible
+                wait(); // Espera hasta que haya un examen disponible
             } catch (InterruptedException e) {
                 Thread.currentThread().interrupt();
+                return null;
             }
         }
-        return colaExamenes.poll(); // Sacar y retornar el examen
+        return colaExamenes.poll(); // Extrae y devuelve el código del examen
     }
 }

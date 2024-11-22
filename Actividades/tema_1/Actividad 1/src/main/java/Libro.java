@@ -1,28 +1,19 @@
+import lombok.*;
+
 import java.io.Serializable;
 import java.util.List;
 import java.util.stream.Collectors;
-
+@Getter
+@Setter
+@ToString
+@NoArgsConstructor
+@AllArgsConstructor
 public class Libro implements Serializable {
     private String ISBN;
     private String titulo;
     private String autor;
 
-    public Libro(String ISBN, String titulo, String autor) {
-        this.ISBN = ISBN;
-        this.titulo = titulo;
-        this.autor = autor;
-    }
-
-    public String getISBN() { return ISBN; }
-    public String getTitulo() { return titulo; }
-    public String getAutor() { return autor; }
-
-    @Override
-    public String toString() {
-        return "ISBN: " + ISBN + ", Título: " + titulo + ", Autor: " + autor;
-    }
-
-    // Métodos de consulta
+        // Métodos de consulta
     public static Libro consultarPorISBN(List<Libro> libros, String isbn) {
         return libros.stream().filter(libro -> libro.getISBN().equals(isbn)).findFirst().orElse(null);
     }
