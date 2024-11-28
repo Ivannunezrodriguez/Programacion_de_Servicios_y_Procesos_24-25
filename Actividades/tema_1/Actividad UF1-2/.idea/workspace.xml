@@ -4,28 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0408d2e9-8dc0-49ac-9916-627e236d9862" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Actividad UF1-1/.idea/checkstyle-idea.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Actividad UF1-1/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Actividad UF1-1/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad UF1-1/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Actividad UF1-1/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad UF1-1/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Actividad UF1-1/Actividad UF1-1.Lanzamiento de procesos.Triángulo numérico.INR.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Actividad UF1-1/Actividad UF1-1.Lanzamiento de procesos.Triángulo numérico.INR.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Actividad UF1-1/Actividad UF1-1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad UF1-1/Actividad UF1-1.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Actividad UF1-1/src/LanzadorTriangulo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad UF1-1/src/LanzadorTriangulo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Actividad UF1-1/src/Triangulo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad UF1-1/src/Triangulo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Actividad UF1-1/src/triangulo5.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Actividad UF1-1/src/triangulo7.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Actividad UF1-1/src/triangulo9.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BufferExamenes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BufferExamenes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Examinado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Examinado.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Principal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ProductorExamenes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProductorExamenes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ActividadUF1-1_INR.zip" beforeDir="false" />
-    </list>
+    <list default="true" id="0408d2e9-8dc0-49ac-9916-627e236d9862" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -60,25 +39,25 @@
     <option name="showMembers" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Principal.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/drive ivan/Curso DAM daw/UNIR/2º curso/Programacion de servicios y procesos/Respositorio",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "configurable.group.appearance",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Principal.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/drive ivan/Curso DAM daw/UNIR/2º curso/Programacion de servicios y procesos/Respositorio&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.appearance&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -96,6 +75,7 @@
       <option name="presentableId" value="Default" />
       <updated>1730295538530</updated>
       <workItem from="1732274948526" duration="602000" />
+      <workItem from="1732540014068" duration="681000" />
     </task>
     <servers />
   </component>
