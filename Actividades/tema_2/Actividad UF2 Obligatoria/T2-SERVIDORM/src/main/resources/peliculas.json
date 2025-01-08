@@ -1,0 +1,21 @@
+[
+  {
+    "id": 1,
+    "titulo": "Pelicula 1",
+    "rating": 7.5,
+    "comentarios": "Muy entretenida."
+  },
+  {
+    "id": 2,
+    "titulo": "Pelicula 2",
+    "rating": 8.2,
+    "comentarios": "Excelente actuación."
+  },
+  {
+    "id": 3,
+    "titulo": "Pelicula 3",
+    "rating": 6.9,
+    "comentarios": "Buena trama."
+  }
+
+]
