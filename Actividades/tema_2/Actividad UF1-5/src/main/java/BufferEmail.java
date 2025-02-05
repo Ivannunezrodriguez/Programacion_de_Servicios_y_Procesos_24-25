@@ -2,7 +2,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 
 public class BufferEmail {
-    private final int capacidad;
+    private int capacidad;
     private Queue<Email> buffer = new LinkedList<>();
 
     public BufferEmail(int capacidad) {

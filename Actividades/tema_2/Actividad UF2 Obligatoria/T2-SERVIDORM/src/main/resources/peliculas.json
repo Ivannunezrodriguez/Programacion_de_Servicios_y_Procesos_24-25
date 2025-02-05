@@ -1,21 +1,66 @@
 [
   {
     "id": 1,
-    "titulo": "Pelicula 1",
-    "rating": 7.5,
-    "comentarios": "Muy entretenida."
+    "titulo": "Juego de Tronos",
+    "creator": "David Benioff, D.B. Weiss",
+    "rating": 9.2,
+    "dates": "2011-2019",
+    "comentarios": "HBO"
   },
   {
     "id": 2,
-    "titulo": "Pelicula 2",
-    "rating": 8.2,
-    "comentarios": "Excelente actuación."
+    "titulo": "Breaking Bad",
+    "creator": "Vince Gilligan",
+    "rating": 9.4,
+    "dates": "2008-2013",
+    "comentarios": "AMC"
   },
   {
     "id": 3,
-    "titulo": "Pelicula 3",
-    "rating": 6.9,
-    "comentarios": "Buena trama."
+    "titulo": "Stranger Things",
+    "creator": "Matt Duffer, Ross Duffer",
+    "rating": 8.7,
+    "dates": "2016-",
+    "comentarios": "Netflix"
+  },
+  {
+    "id": 4,
+    "titulo": "The Boys",
+    "creator": "Eric Kripke",
+    "rating": 8.7,
+    "dates": "2019-",
+    "comentarios": "Prime Video"
+  },
+  {
+    "id": 5,
+    "titulo": "The Mandalorian",
+    "creator": "Jon Favreau",
+    "rating": 8.8,
+    "dates": "2019-",
+    "comentarios": "Disney +"
+  },
+  {
+    "id": 6,
+    "titulo": "WandaVision",
+    "creator": "Jac Schaeffer",
+    "rating": 8,
+    "dates": "2021",
+    "comentarios": "Disney +"
+  },
+  {
+    "id": 7,
+    "titulo": "Peaky Blinders",
+    "creator": "Steven Knight",
+    "rating": 8.8,
+    "dates": "2013-",
+    "comentarios": "BBC"
+  },
+  {
+    "id": 8,
+    "titulo": "Vikings",
+    "creator": "Michael Hirst",
+    "rating": 8.5,
+    "dates": "2013-2020",
+    "comentarios": "Prime Video"
   }
-
 ]

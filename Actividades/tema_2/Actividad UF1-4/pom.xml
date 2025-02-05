@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.example</groupId>
-    <artifactId>ActividadUF2-1</artifactId>
+    <artifactId>Actividad_UF1-5</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
@@ -14,14 +14,17 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
     <dependencies>
+    <dependency>
+        <groupId>org.projectlombok</groupId>
+        <artifactId>lombok</artifactId>
+        <version>1.18.28</version>
+        <scope>provided</scope>
+    </dependency>
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
-            <version>1.18.28</version>
+            <version>1.18.34</version>
             <scope>provided</scope>
         </dependency>
-
     </dependencies>
-
-
 </project>
