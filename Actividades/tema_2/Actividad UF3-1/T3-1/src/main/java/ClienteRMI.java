@@ -6,7 +6,7 @@ import java.util.Scanner;
 class ClienteRMI {
     public static void main(String[] args) {
         try {
-            Registry registro = LocateRegistry.getRegistry("localhost", 5055);
+            Registry registro = LocateRegistry.getRegistry("localhost", 2021);
             ConstelacionInterfaceRMI constelaciones = (ConstelacionInterfaceRMI) registro.lookup("Constelaciones");
             Scanner scanner = new Scanner(System.in);
             String nombreConst;
