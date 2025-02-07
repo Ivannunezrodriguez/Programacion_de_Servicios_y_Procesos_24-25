@@ -1,9 +1,12 @@
+import java.io.Serial;
 import java.rmi.RemoteException;
 import java.rmi.server.UnicastRemoteObject;
 import java.util.ArrayList;
 import java.util.List;
 
 class ConstelacionRMI extends UnicastRemoteObject implements ConstelacionInterfaceRMI {
+    @Serial
+    private static final long serialVersionUID = -9029108738150223029L;
     private List<Constelacion> constelaciones;
 
     protected ConstelacionRMI() throws RemoteException {
