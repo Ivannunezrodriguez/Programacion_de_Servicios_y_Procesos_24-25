@@ -6,7 +6,8 @@ class ServidorRMI {
         try {
             Registry registro = LocateRegistry.createRegistry(2021);
             registro.rebind("Constelaciones", new ConstelacionRMI());
-            System.out.println("Servidor RMI en ejecución.");
+            registro.rebind("Planetas", new PlanetaRMI());
+            System.out.println("Servidor RMI en ejecución con Constelaciones y Planetas.");
         } catch (Exception e) {
             e.printStackTrace();
         }
