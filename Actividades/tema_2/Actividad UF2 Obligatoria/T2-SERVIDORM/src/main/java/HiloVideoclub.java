@@ -32,14 +32,11 @@ class HiloVideoclub implements Runnable {
         return peliculas;
     }
 
-
-    private static synchronized void modificarPelicula(int id, String campo, String nuevoValor, PrintWriter writer) {
+    private static synchronized void modificarPelicula(int id, int opcionCampo, String nuevoValor, PrintWriter writer) {
         for (Pelicula pelicula : peliculas) {
             if (pelicula.getId() == id) {
-
-
-                switch (campo) {
-                    case "rating":
+                switch (opcionCampo) {
+                    case 1:
                         try {
                             pelicula.setRating(Double.parseDouble(nuevoValor));
                         } catch (NumberFormatException e) {
@@ -47,20 +44,19 @@ class HiloVideoclub implements Runnable {
                             return;
                         }
                         break;
-                    case "comentarios":
+                    case 2:
                         pelicula.setComentarios(nuevoValor);
                         break;
                     default:
-                        writer.println("Error: Campo no válido. Solo se permite modificar 'rating' o 'comentarios'.");
+                        writer.println("Error: Opción no válida. Usa 1 para rating o 2 para comentarios.");
                         return;
                 }
-
-                writer.println("Estado modificado: " + pelicula);
-                writer.println("Película actualizada correctamente.");
+                writer.println("Película actualizada correctamente. " + pelicula);
                 return;
             }
         }
         writer.println("Error: No se encontró ninguna película con el ID proporcionado.");
+
     }
 
     @Override
@@ -71,75 +67,75 @@ class HiloVideoclub implements Runnable {
                 BufferedReader reader = new BufferedReader(new InputStreamReader(entrada));
                 PrintWriter writer = new PrintWriter(salida, true)
         ) {
-            writer.println("Bienvenido al videoclub. Envía un comando (CONSULTA, MODIFICAR, FIN):");
+            writer.println("Bienvenido al videoclub. Seleccione una opción: 1 - CONSULTA 2 - MODIFICAR 3 - FIN");
+
 
             String comando;
             while ((comando = reader.readLine()) != null) {
-                if (comando.equalsIgnoreCase("FIN")) {
-                    writer.println("Gracias por usar el videoclub. ¡Hasta pronto!");
-                    break;
+                switch (comando) {
+                    case "3":
+                        writer.println("Gracias por usar el videoclub. ¡Hasta pronto!");
+                        return;
+                    case "1":
+                        writer.println("Seleccione el tipo de consulta: 1 - ID 2 - TÍTULO");
+                        String tipoConsulta = reader.readLine();
 
-                } else if (comando.equalsIgnoreCase("CONSULTA")) {
-                    writer.println("Introduce el tipo de consulta (ID o TITULO):");
-                    String tipoConsulta = reader.readLine();
+                        if (tipoConsulta.equals("1")) {
+                            writer.println("Introduce el ID de la película:");
+                            try {
+                                int id = Integer.parseInt(reader.readLine());
+                                List<Pelicula> encontradas = new ArrayList<>();
+                                for (Pelicula p : peliculas) {
+                                    if (p.getId() == id) {
+                                        encontradas.add(p);
+                                    }
+                                }
+                                if (!encontradas.isEmpty()) {
+                                    for (Pelicula p : encontradas) {
+                                        writer.println(p);
+                                    }
+                                } else {
+                                    writer.println("No se encontraron películas con el ID: " + id);
+                                }
 
-                    if (tipoConsulta.equalsIgnoreCase("ID")) {
-                        writer.println("Introduce el ID de la película:");
-                        try {
-                            int id = Integer.parseInt(reader.readLine());
+
+                            } catch (NumberFormatException e) {
+                                writer.println("Error: ID debe ser un número entero.");
+                            }
+                        } else if (tipoConsulta.equals("2")) {
+                            writer.println("Introduce el título de la película:");
+                            String titulo = reader.readLine().trim().toLowerCase();
                             List<Pelicula> encontradas = new ArrayList<>();
                             for (Pelicula p : peliculas) {
-                                if (p.getId() == id) {
+                                if (p.getTitulo().toLowerCase().contains(titulo)) {
                                     encontradas.add(p);
                                 }
                             }
-
                             if (!encontradas.isEmpty()) {
                                 for (Pelicula p : encontradas) {
                                     writer.println(p);
                                 }
                             } else {
-                                writer.println("No se encontraron películas con id que contenga: " + id);
+                                writer.println("No se encontraron películas con título que contenga: " + titulo);
                             }
 
-                        } catch (NumberFormatException e) {
-                            writer.println("Error: ID debe ser un número entero.");
-                        }
-                    } else if (tipoConsulta.equalsIgnoreCase("TITULO")) {
-                        writer.println("Introduce el título de la película:");
-                        String titulo = reader.readLine().trim().toLowerCase();
-                        List<Pelicula> encontradas = new ArrayList<>();
-                        for (Pelicula p : peliculas) {
-                            if (p.getTitulo().toLowerCase().contains(titulo)) {
-                                encontradas.add(p);
-                            }
-                        }
-
-                        if (!encontradas.isEmpty()) {
-                            for (Pelicula p : encontradas) {
-                                writer.println(p);
-                            }
                         } else {
-                            writer.println("No se encontraron películas con título que contenga: " + titulo);
+                            writer.println("Opción no válida. Usa 1 para ID o 2 para TÍTULO.");
+
                         }
-                    } else {
-                        writer.println("Tipo de consulta no válido. Usa ID o TITULO.");
-                    }
-                } else if (comando.equalsIgnoreCase("MODIFICAR")) {
-
-                    writer.println("Introduce el ID de la película:");
-                    int id = Integer.parseInt(reader.readLine());
-
-                    writer.println("Introduce el campo a modificar (rating, comentarios):");
-                    String campo = reader.readLine();
-                    writer.println("Introduce el nuevo valor:");
-                    String nuevoValor = reader.readLine();
-                    modificarPelicula(id, campo, nuevoValor, writer);
-
-                } else {
-                    writer.println("Comando no reconocido. Usa CONSULTA, MODIFICAR o FIN.");
+                        break;
+                    case "2":
+                        writer.println("Introduce el ID de la película:");
+                        int id = Integer.parseInt(reader.readLine());
+                        writer.println("Seleccione el campo a modificar: 1 - RATING  2 - COMENTARIOS");
+                        int campo = Integer.parseInt(reader.readLine());
+                        writer.println("Introduce el nuevo valor:");
+                        String nuevoValor = reader.readLine();
+                        modificarPelicula(id, campo, nuevoValor, writer);
+                        break;
+                    default:
+                        writer.println("Comando no reconocido. Usa 1 para CONSULTA, 2 para MODIFICAR o 3 para FIN.");
                 }
-
             }
         } catch (IOException e) {
             throw new RuntimeException(e);

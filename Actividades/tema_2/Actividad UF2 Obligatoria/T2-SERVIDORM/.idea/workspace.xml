@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="bf2a3a89-e08d-4ece-b7ff-c0f933b375d4" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../T2-CLIENTEM - copia/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../T2-CLIENTEM - copia/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../T2-CLIENTEM - copia/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../T2-CLIENTEM - copia/.idea/checkstyle-idea.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../T2-CLIENTEM - copia/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../T2-CLIENTEM - copia/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../T2-CLIENTEM - copia/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../T2-CLIENTEM - copia/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../T2-CLIENTEM - copia/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../T2-CLIENTEM - copia/src/main/java/ClienteVideoclub.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../T2-CLIENTEM/src/main/java/ClienteVideoclub.java" beforeDir="false" afterPath="$PROJECT_DIR$/../T2-CLIENTEM/src/main/java/ClienteVideoclub.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/HiloVideoclub.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HiloVideoclub.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Ivannunezrodriguez"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Ivannunezrodriguez/Programacion_de_Servicios_y_Procesos_24-25.git",
+    "accountId": "46cfbf7d-a95b-41dd-90d2-ecc587252d1d"
+  }
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 1
+}]]></component>
+  <component name="ProjectId" id="2sz5G6QrZsjuyE1z0Kww8NV2dOp" />
+  <component name="ProjectViewState">
+    <option name="abbreviatePackageNames" value="true" />
+    <option name="flattenModules" value="true" />
+    <option name="flattenPackages" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.ServidorVideoclub.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/drive ivan/Curso DAM daw/UNIR/2_curso/Programacion de servicios y procesos/Actividades/tema_2/Actividad UF2 Obligatoria/T2-SERVIDORM/pom.xml",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-125ca727e0f0-intellij.indexing.shared.core-IU-243.23654.189" />
+        <option value="bundled-js-predefined-d6986cc7102b-822845ee3bb5-JavaScript-IU-243.23654.189" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bf2a3a89-e08d-4ece-b7ff-c0f933b375d4" name="Changes" comment="" />
+      <created>1739445463645</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1739445463645</updated>
+      <workItem from="1739445464781" duration="2534000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

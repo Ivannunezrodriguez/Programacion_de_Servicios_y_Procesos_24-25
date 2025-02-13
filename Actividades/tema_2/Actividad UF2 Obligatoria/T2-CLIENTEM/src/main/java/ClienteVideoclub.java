@@ -17,14 +17,21 @@ class ClienteVideoclub {
                 System.out.println(respuesta);
                 String comando = scanner.nextLine();
                 writer.println(comando);
+                writer.flush();
 
-                if (comando.equalsIgnoreCase("CONSULTA") || comando.equalsIgnoreCase("MODIFICAR")) {
+                if (comando.equals("1") || comando.equals("2")) {
                     respuesta = reader.readLine();
                     System.out.println(respuesta);
                     String parametro = scanner.nextLine();
                     writer.println(parametro);
+                    writer.flush();
+                }
+
+                if (comando.equals("3")) {
+                    break;
                 }
             }
+            scanner.close();
         } catch (IOException e) {
             System.out.println("Error: " + e.getMessage());
         }
