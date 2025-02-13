@@ -1,8 +1,4 @@
-2025-02-05 12:37:17 -> 2,Thread-2,0,Es primo
-2025-02-05 12:37:17 -> 8,Thread-1,0,No es primo
-2025-02-05 12:37:17 -> 4,Thread-3,0,No es primo
-2025-02-05 12:37:17 -> 17,Thread-0,0,Es primo
-2025-02-05 12:41:58 -> 17,Thread-0,0,Es primo
-2025-02-05 12:41:58 -> 23,Thread-2,0,Es primo
-2025-02-05 12:41:58 -> 8,Thread-1,0,No es primo
-2025-02-05 12:41:58 -> 4,Thread-3,0,No es primo
+2025-02-13 11:16:17 -> 5,Thread-1,0,Es primo
+2025-02-13 11:16:17 -> 4,Thread-0,0,No es primo
+2025-02-13 11:16:17 -> 7,Thread-3,0,Es primo
+2025-02-13 11:16:17 -> 9,Thread-2,0,No es primo
